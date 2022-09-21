@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js/gnirael.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+ 
+        </style>
+    </head>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<h1>Moy aresoyn oi mauroi</h1>
+<p id="demo">JavaScript can change HTML content.</p>
+
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+        <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+        <p id="text">JavaScript can change the style of an html element</p>
+
+            <button type="button" onclick="document.getElementById('text').style.fontSize='35px'">Click Me!</button>
+
+            <p id="car1"></p>
+                <script>
+                    let carName = "BMW";
+                    document.getElementById("car1").innerHTML = carName;
+                
+                </script>
+
+<ol>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+  </ol>
+  
+  <ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Coca Cola</li>
+  </ul>
+
+
+
+    </body>
+</html>
